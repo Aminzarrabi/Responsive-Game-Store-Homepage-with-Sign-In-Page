@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Online Shop</title>
 </head>
-<body style="direction: rtl;">
+<script src="slider.js"></script>
+<body >
     <header>
-        <nav class="navigation">
+        <nav class="navigation" style="direction: rtl;">
             <div id="right_part">
                 <a href=""><i class="fa-regular fa-user"></i></a>
                 <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
@@ -21,8 +24,19 @@
                 <a href="main.html">ثبت نام / ورود</a>
             </div>
         </nav>
-        <div class="slider">
-
+        <div id="slider">
+            <i onclick="change(this)" id="left" class="glyphicon glyphicon-chevron-left arrow"></i>
+            <div class="divv"><img id="im1" class="imgg" src="images/slider/watch_dogs_30-wallpaper-1920x1080.jpg" alt="1"></div>
+            <div class="divv"><img id="im2" class="imgg" src="images/slider/watch_dogs_2_marcus_sitara_wrench-wallpaper-1920x1080.jpg" alt="2"></div>
+            <div class="divv"><img id="im3" class="imgg" src="images/slider/watch_dogs_2_dedsec-wallpaper-1920x1080.jpg" alt="3"></div>
+            <div class="divv"><img id="im4" class="imgg" src="images/slider/watch_dogs_2_marcus_2-wallpaper-1920x1080.jpg" alt="4"></div>
+            <i onclick="change(this)" id="right" class="glyphicon glyphicon-chevron-right arrow">	</i>
+            <div id="rrr">
+                <i id="i1"  class="icon material-symbols-outlined">radio_button_unchecked</i>
+                <i id="i2"  class="icon material-symbols-outlined">radio_button_unchecked</i>
+                <i id="i3"  class="icon material-symbols-outlined">radio_button_unchecked</i>
+                <i id="i4"  class="icon material-symbols-outlined">radio_button_unchecked</i>
+            </div>
         </div>
     </header>
     <main></main>
