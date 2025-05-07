@@ -1,4 +1,4 @@
-setInterval(fun,4000);
+setInterval(fun,2500);
 var n=1;
 function fun() { 
     var temp =document.getElementById("im"+n);
@@ -6,7 +6,7 @@ function fun() {
     var icon=document.getElementById("i"+n);
     icon.style.color=" rgba(0, 0, 0, 0.368)";
     n++;
-    if(n==5)
+    if(n==7)
         {
             n=1;
         }
@@ -24,7 +24,7 @@ function change(obj) {
             var icon=document.getElementById("i"+n);
             icon.style.color=" rgba(0, 0, 0, 0.368)";
             n++;
-            if(n==5)
+            if(n==7)
                 {
                     n=1;
                 }
@@ -42,7 +42,7 @@ function change(obj) {
             n--;
             if(n==0)
                 {
-                    n=4;
+                    n=6;
                 }
             var temp =document.getElementById("im"+n);
             temp.style.display="block"  

@@ -41,8 +41,8 @@ a:-webkit-any-link {
 /* Slider */
 #slider{
     width: 70%;
-    height: 500px;
     margin: auto;
+    margin-top: -25px;
 }
 .imgg{
     width: 100%;
@@ -51,6 +51,7 @@ a:-webkit-any-link {
     padding: 0px auto;
     display: none;
     border: 3px solid black;
+    border-radius: 10px;
 }
 #im1{
     display: block;
@@ -80,7 +81,10 @@ a:-webkit-any-link {
     
 }
 #rrr{
-    margin:-25px 0px 0px 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
 }
 #i1{
     color: black;
