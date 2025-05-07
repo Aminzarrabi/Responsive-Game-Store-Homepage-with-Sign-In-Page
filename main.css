@@ -154,7 +154,7 @@ a:-webkit-any-link {
 .shoping_card .button .left .favorite{
     font-size: 1.3em;
 }
- .shoping_card:hover{
+.shoping_card:hover{
     font-size: 1.15em;
     transition: 0.5s;
 } 
@@ -172,4 +172,91 @@ a:-webkit-any-link {
     font-size: 0.8em;
     color: #66666686;
     text-decoration: line-through;
+}
+/* Bundle card */
+.bundle{
+    text-align:  center;
+    background-color: #e6e6e6;
+    box-shadow: 0px 2px 8px 0px rgb(255,255, 255,0.2);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10PX;
+}
+.bundle .image {
+    padding: 20px;
+    position: relative;
+}
+.bundle .image img{
+    width: 37%;
+}
+.bundle .image .plus{
+    font-size: 2.5em;
+    margin: 15px;
+}
+.bundle .description{
+    position: relative;
+    padding: 20px;
+}
+.bundle .description .offer{
+    position: absolute;
+    background-color: #e74c3c;
+    color: rgb(255, 255, 255);
+    top: 5px;
+    left:10px;
+    padding: 3px 5px;
+    font-size: 1.7em;
+    border-radius: 5px;
+}
+.bundle .description .title{
+    margin: 15px;
+    color: #333;
+    font-size: 1.9em;
+}
+.bundle .description .t1{
+    margin-top: 70px;
+}
+.bundle .description .t2{
+    margin-bottom: 170px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.description #off{
+    position: absolute;
+    background-color: #e74c3c;
+    color: rgb(255, 255, 255);
+    padding: 3px 5px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    top: 270px;
+    left: 200px;
+}
+.description .button .shop{
+    font-size: 2.3em;
+    color: #333;
+    padding: 8px;
+}
+.bundle .button .right{
+    display: flex;
+    flex-direction: column;
+}
+.bundle .button .right .p1{
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #666;
+}
+.bundle .button .right .p2{
+    font-weight: 100;
+    font-size: 1.2em;
+    color: #66666686;
+    text-decoration: line-through;
+}
+.bundle:hover{
+    font-size: 1.15em;
+    transition: 0.5s;
+}
+i:hover{
+    color:#444444ad;
 }
