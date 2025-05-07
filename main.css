@@ -42,7 +42,8 @@ a:-webkit-any-link {
 #slider{
     width: 68%;
     margin: auto;
-    margin-top: -25px;
+    margin-top: 5px;
+    position: relative;
 }
 .imgg{
     width: 100%;
@@ -51,6 +52,7 @@ a:-webkit-any-link {
     padding: 0px auto;
     display: none;
     border-radius: 10px;
+    animation: fadein;
 }
 #im1{
     display: block;
@@ -58,19 +60,20 @@ a:-webkit-any-link {
 .arrow{
     font-size: 35px;
     font-weight: 300;
-    position: relative;   
 }
 .arrow:hover{
     color: rgba(0, 0, 0, 0.676);
     cursor: pointer;
 }
 #right{
-    top: -294px;
-    right: -1085px;
+    position: absolute;
+    top: 270px;
+    right: -55px;
 }
 #left{
-    top: 316px;
-    right: 75px;
+    position: absolute;
+    top: 270px;
+    left: -55px;
 }
 .icon{
     color: rgba(255, 255, 255, 0.31);
@@ -83,7 +86,7 @@ a:-webkit-any-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -80px;
+    margin-top: -40px;
     margin-bottom: 60px;
 }
 #i1{
