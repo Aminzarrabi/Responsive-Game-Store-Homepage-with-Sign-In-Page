@@ -18,11 +18,11 @@ a:-webkit-any-link {
 }
 .navigation #right_part a{
     color: #444;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin: 0px 30px;
 }
 .navigation #left_part {
-    font-size: 1.1em;
+    font-size: 1.4em;
     border: 1px solid #444;
     padding:6px 8px;
     border-radius: 5px;
