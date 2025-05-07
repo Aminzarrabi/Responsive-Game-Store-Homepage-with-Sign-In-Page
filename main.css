@@ -40,13 +40,15 @@ a:-webkit-any-link {
 }
 /* Slider */
 #slider{
-    width: 68%;
+    width: 80%;
+    height: 570px;
     margin: auto;
     margin-top: 5px;
     position: relative;
+    background-color: #33333317;
 }
 .imgg{
-    width: 100%;
+    width: 90%;
     height: 570px;
     margin: 0px auto;
     padding: 0px auto;
@@ -68,12 +70,12 @@ a:-webkit-any-link {
 #right{
     position: absolute;
     top: 270px;
-    right: -55px;
+    right: 15px;
 }
 #left{
     position: absolute;
     top: 270px;
-    left: -55px;
+    left: 15px;
 }
 .icon{
     color: rgba(255, 255, 255, 0.31);
@@ -259,4 +261,38 @@ a:-webkit-any-link {
 }
 i:hover{
     color:#444444ad;
+}
+/* Fotter */
+.social{
+    margin: auto 15px;
+    background-color: #33333317;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px 7px 0px 0px;
+    padding:25px;
+}
+.icons{
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.3em;
+}
+.icons i:hover{
+    font-size: 1.3em;
+    transition: 0.75s ease-in-out;
+}
+.social span{
+    flex: 1;
+    font-size: 2.3em;
+}
+.des{
+    margin: 0px 10px 15px 15px;
+    border-radius: 0px 0px 7px 7px;
+    background-color: #33333317;
+    text-align: center;
+    padding:25px;
+    font-size: 2.3em;
 }
