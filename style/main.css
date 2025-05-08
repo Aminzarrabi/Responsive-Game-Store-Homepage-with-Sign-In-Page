@@ -40,21 +40,21 @@ a:-webkit-any-link {
 }
 /* Slider */
 #slider{
-    width: 80%;
-    height: 570px;
+    width: 97.9%;
+    border-radius: 10px;
+    height: 620px;
     margin: auto;
     margin-top: 5px;
     position: relative;
     background-color: #33333317;
 }
 .imgg{
-    width: 90%;
-    height: 570px;
+    width: 85%;
+    height: 620px;
     margin: 0px auto;
     padding: 0px auto;
     display: none;
     border-radius: 10px;
-    animation: fadein;
 }
 #im1{
     display: block;
@@ -69,13 +69,13 @@ a:-webkit-any-link {
 }
 #right{
     position: absolute;
-    top: 270px;
-    right: 15px;
+    top: 290px;
+    right: 45px;
 }
 #left{
     position: absolute;
-    top: 270px;
-    left: 15px;
+    top: 290px;
+    left: 45px;
 }
 .icon{
     color: rgba(255, 255, 255, 0.31);
