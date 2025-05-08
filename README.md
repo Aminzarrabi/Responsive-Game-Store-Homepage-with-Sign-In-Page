@@ -1,0 +1,1 @@
+A modern and fully responsive homepage for a game store website, including an interactive sign-in page. Built with HTML, CSS, and JavaScript. Suitable for personal or commercial projects, and optimized for various screen sizes.
